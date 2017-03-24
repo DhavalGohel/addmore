@@ -11,7 +11,7 @@ put this code inside form element
 	 &lta href="#" class="addmore-addbtn"&gtAdd more&lt/a&gt
 &lt/div&gt
 
-&lt!-- Addmore template --&gt
+<!-- Addmore template -->
 &ltscript id="addmore-template" type="text/template"&gt
     &ltdiv class="addmore-row rowId"&gt
         &ltinput type="text" name="items[key][field1]" /&gt
