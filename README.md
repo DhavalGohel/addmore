@@ -3,23 +3,23 @@ addmore plugin for add dynamic html form elements
 
 put this code inside form element
 
-&ltdiv style="display: block;" class="admore-fields"&gt
-&lt/div&gt
+<div style="display: block;" class="admore-fields">
+</div>
 
-<!-- Add more button -- >
-&ltdiv style="display: block;"&gt
-	 &lta href="#" class="addmore-addbtn"&gtAdd more&lt/a&gt
-&lt/div&gt
+<!-- Add more button -->
+<div style="display: block;">
+	 <a href="#" class="addmore-addbtn">Add more</a>
+</div>
 
 <!-- Addmore template -->
-&ltscript id="addmore-template" type="text/template"&gt
-    &ltdiv class="addmore-row rowId"&gt
-        &ltinput type="text" name="items[key][field1]" /&gt
-        &ltinput type="text" name="items[key][field2]" /&gt
-        &ltinput type="text" name="items[key][field3]" /&gt
-        &lta href="#" data-rowid="key" class="addmore-removebtn"&gtRemove&lt/a&gt
-    &lt/div&gt
-&lt/script&gt
+<script id="addmore-template" type="text/template">
+    <div class="addmore-row rowId">
+        <input type="text" name="items[key][field1]" />
+        <input type="text" name="items[key][field2]" />
+        <input type="text" name="items[key][field3]" />
+        <a href="#" data-rowid="key" class="addmore-removebtn">Remove</a>
+    </div>
+</script>
 
 for use put this line of code in script tag
 <pre>
