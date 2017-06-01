@@ -7,7 +7,7 @@ put this code inside form element
 </div>
 
 <!-- Add more button -->
-`<div style="display: block;">
+<div style="display: block;">
 	 <a href="#" class="addmore-addbtn">Add more</a>
 </div>
 
@@ -19,7 +19,7 @@ put this code inside form element
         <input type="text" name="items[key][field3]" />
         <a href="#" data-rowid="key" class="addmore-removebtn">Remove</a>
     </div>
-</script>`
+</script>
 
 for use put this line of code in script tag
 <pre>
